@@ -6,4 +6,4 @@ Solutions to Rosalind problems in Python.
 
 | ID   | Title   |
 | ---- | ------- |
-| BA1B |         |
+| BA1B | [Find the Most Frequent Words in a String](https://github.com/mlagun/Rosalind-Solutions/tree/main/BA1B)|
