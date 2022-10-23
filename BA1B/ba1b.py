@@ -11,11 +11,7 @@ def frequent_words(dna, k):
         frequencies[kmer] = frequencies.get(kmer, 0) + 1
         if frequencies[kmer] > max_occurrence:
             max_occurrence = frequencies[kmer]
-    kmers = []
-    for kmer, occurrence in frequencies.items():
-        if occurrence == max_occurrence:
-            kmers.append(kmer)
-    return kmers
+    return [kmer for kmer, freq in frequencies.items() if freq == max_occurrence]
 
 
 if __name__ == "__main__":
