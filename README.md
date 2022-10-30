@@ -11,3 +11,4 @@ Solutions to Rosalind problems in Python.
 | BA1C | [Find the Reverse Complement of a String](https://github.com/marina1536/Rosalind-Solutions/tree/main/BA1C)                 |
 | BA1D | [Find All Occurrences of a Pattern in a String](https://github.com/marina1536/Rosalind-Solutions/tree/main/BA1D)           |
 | BA1E | [Find Patterns Forming Clumps in a String](https://github.com/marina1536/Rosalind-Solutions/tree/main/BA1E)                |
+| BA1F | [Find a Position in a Genome Minimizing the Skew](https://github.com/marina1536/Rosalind-Solutions/tree/main/BA1F)         |
