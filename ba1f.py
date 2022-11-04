@@ -22,8 +22,8 @@ def skew(genome):
 
 
 if __name__ == "__main__":
-    with open("./rosalind_ba1f.txt", "r") as dataset:
+    with open("datasets/rosalind_ba1f.txt", "r") as dataset:
         genome = dataset.readline().strip()
     solution = skew(genome)
-    with open("./solution_ba1f.txt", "w") as file:
+    with open("solutions/solution_ba1f.txt", "w") as file:
         file.write(" ".join(map(str, solution)))

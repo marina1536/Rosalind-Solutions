@@ -10,8 +10,8 @@ def reverse_complement(pattern):
 
 
 if __name__ == "__main__":
-    with open("./rosalind_ba1c.txt", "r") as dataset:
+    with open("datasets/rosalind_ba1c.txt", "r") as dataset:
         pattern = dataset.readline().rstrip()
     solution = reverse_complement(pattern)
-    with open("./solution_ba1c.txt", "w") as file:
+    with open("solutions/solution_ba1c.txt", "w") as file:
         file.write(solution)

@@ -15,9 +15,9 @@ def frequent_words(dna, k):
 
 
 if __name__ == "__main__":
-    with open("./rosalind_ba1b.txt", "r") as dataset:
+    with open("datasets/rosalind_ba1b.txt", "r") as dataset:
         dna = dataset.readline().strip()
         k = int(dataset.readline())
     solution = frequent_words(dna, k)
-    with open("./solution_ba1b.txt", "w") as file:
+    with open("solutions/solution_ba1b.txt", "w") as file:
         file.write("\n".join(solution))

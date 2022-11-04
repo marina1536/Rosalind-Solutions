@@ -15,9 +15,9 @@ def occurrences(genome, pattern):
 
 
 if __name__ == "__main__":
-    with open("./rosalind_ba1d.txt", "r") as dataset:
+    with open("datasets/rosalind_ba1d.txt", "r") as dataset:
         pattern = dataset.readline().rstrip()
         genome = dataset.readline().rstrip()
     solution = occurrences(genome, pattern)
-    with open("./solution_ba1d.txt", "w") as file:
+    with open("solutions/solution_ba1d.txt", "w") as file:
         file.write(" ".join(map(str, solution)))

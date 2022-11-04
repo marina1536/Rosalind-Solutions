@@ -27,9 +27,9 @@ def clump(genome, k, L, t):
 
 
 if __name__ == "__main__":
-    with open("./rosalind_ba1e.txt", "r") as dataset:
+    with open("datasets/rosalind_ba1e.txt", "r") as dataset:
         genome = dataset.readline().strip()
         k, L, t = [int(x) for x in dataset.readline().split()]
     solution = clump(genome, k, L, t)
-    with open("./solution_ba1e.txt", "w") as file:
+    with open("solutions/solution_ba1e.txt", "w") as file:
         file.write(" ".join(solution))

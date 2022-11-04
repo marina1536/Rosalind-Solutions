@@ -13,9 +13,9 @@ def hamming(s1, s2):
 
 
 if __name__ == "__main__":
-    with open("./rosalind_ba1g.txt", "r") as dataset:
+    with open("datasets/rosalind_ba1g.txt", "r") as dataset:
         string1 = dataset.readline().strip()
         string2 = dataset.readline().strip()
     solution = hamming(string1, string2)
-    with open("./solution_ba1g.txt", "w") as file:
+    with open("solutions/solution_ba1g.txt", "w") as file:
         file.write(str(solution))

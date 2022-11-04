@@ -15,9 +15,9 @@ def pattern_count(text, pattern):
 
 
 if __name__ == "__main__":
-    with open("./rosalind_ba1a.txt", "r") as file:
+    with open("datasets/rosalind_ba1a.txt", "r") as file:
         text = file.readline().strip()
         pattern = file.readline().strip()
     solution = pattern_count(text, pattern)
-    with open("./solution_ba1a.txt", "w") as file:
+    with open("solutions/solution_ba1a.txt", "w") as file:
         file.write(f"{solution}")
